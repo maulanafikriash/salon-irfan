@@ -1,3 +1,7 @@
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable import/no-unresolved */
 import logo from './logo.svg';
 import './App.css';
 
