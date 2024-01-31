@@ -21,7 +21,7 @@ export default function Services() {
           <div className="row">
             <div className="col-lg-3 col-md-6 pr-0 pl-md-3 pl-0">
               <LazyLoadImage
-                src="assets/images/.........."
+                src="assets/images/img-service-4.webp"
                 className="img-fluid img-rounded"
                 alt="gambar layanan"
               />
@@ -36,7 +36,7 @@ export default function Services() {
             </div>
             <div className="col-lg-3 col-md-6 pr-0 pl-md-3 pl-0 mt-lg-0 mt-4">
               <LazyLoadImage
-                src="assets/images/.........."
+                src="assets/images/img-service-2.webp"
                 className="img-fluid img-rounded"
                 alt="gambar layanan"
               />
@@ -51,7 +51,7 @@ export default function Services() {
 
             <div className="col-lg-3 col-md-6 pr-0 pl-md-3 pl-0 mt-lg-5 mt-4">
               <LazyLoadImage
-                src="assets/images/.........."
+                src="assets/images/img-service-1.webp"
                 className="img-fluid img-rounded"
                 alt="gambar layanan"
               />
@@ -66,14 +66,14 @@ export default function Services() {
             </div>
             <div className="col-lg-3 col-md-6 pr-0 pl-md-3 pl-0 mt-lg-5 mt-4">
               <LazyLoadImage
-                src="assets/images/.........."
+                src="assets/images/img-service-3.webp"
                 className="img-fluid img-rounded"
                 alt="gambar layanan"
               />
             </div>
             <div className="col-lg-3 col-md-6 bg-grid-clr mt-lg-5 mt-md-4">
               <h4 className="mt-md-0 my-2">Karakter Fantasi</h4>
-              <p className="">
+              <p>
                 Makeup karakter fantasi merupakan seni yang menggabungkan
                 kreativitas, keterampilan, dan imajinasi untuk menciptakan
                 penampilan yang luar biasa dan menakjubkan.

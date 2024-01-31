@@ -4,6 +4,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FaBars } from 'react-icons/fa6';
 
 export default function Navbar() {
   const location = useLocation();
@@ -13,59 +14,87 @@ export default function Navbar() {
     setActiveLink(location.pathname);
   }, [location.pathname]);
 
+  const isHomeActive = activeLink === '/' || activeLink === '/beranda';
+
   const handleLinkClick = (path) => {
     setActiveLink(path);
   };
-
   return (
     <header id="home">
       <div className="container">
         <div className="header d-lg-flex justify-content-between align-items-center">
           <div className="header-agile">
             <h1 tabIndex="0" className="brand">
-              <img src="assets/images/imagenya" alt="logo salon irfan" className="logo-brand" />
+              <img
+                src="assets/images/logo-salon-nav.webp"
+                alt="logo salon irfan"
+                className="logo-brand"
+              />
               Salon Irfan
             </h1>
           </div>
           <div>
             <nav>
               <label htmlFor="drop" className="toggle mt-lg-0 mt-1">
-                <span className="fa fa-bars" aria-hidden="true" />
+                <FaBars />
               </label>
               <input type="checkbox" id="drop" />
               <ul className="menu">
-                <li className={`m-2 top-content ${activeLink === '/' ? 'active' : ''}`}>
+                <li
+                  className={`m-2 top-content ${isHomeActive ? 'active' : ''}`}
+                >
                   <Link
-                    className={`text-decoration-none p-2 ${activeLink === '/' ? 'active-link' : ''}`}
+                    className={`text-decoration-none p-2 ${
+                      isHomeActive ? 'active-link' : ''
+                    }`}
                     to="/"
-                    onClick={() => handleLinkClick('/')}
+                    onClick={() => setActiveLink('/')}
                   >
-                    Home
+                    Beranda
                   </Link>
                 </li>
-                <li className={`m-2 top-content ${activeLink === '/about' ? 'active' : ''}`}>
+
+                <li
+                  className={`m-2 top-content ${
+                    activeLink === '/tentang' ? 'active' : ''
+                  }`}
+                >
                   <Link
-                    className={`text-decoration-none p-2 ${activeLink === '/about' ? 'active-link' : ''}`}
-                    to="/about"
-                    onClick={() => handleLinkClick('/about')}
+                    className={`text-decoration-none p-2 ${
+                      activeLink === '/tentang' ? 'active-link' : ''
+                    }`}
+                    to="/tentang"
+                    onClick={() => handleLinkClick('/tentang')}
                   >
                     Tentang
                   </Link>
                 </li>
-                <li className={`m-2 top-content ${activeLink === '/services' ? 'active' : ''}`}>
+                <li
+                  className={`m-2 top-content ${
+                    activeLink === '/layanan' ? 'active' : ''
+                  }`}
+                >
                   <Link
-                    className={`text-decoration-none p-2 ${activeLink === '/services' ? 'active-link' : ''}`}
-                    to="/services"
-                    onClick={() => handleLinkClick('/services')}
+                    className={`text-decoration-none p-2 ${
+                      activeLink === '/layanan' ? 'active-link' : ''
+                    }`}
+                    to="/layanan"
+                    onClick={() => handleLinkClick('/layanan')}
                   >
                     Layanan
                   </Link>
                 </li>
-                <li className={`m-2 top-content ${activeLink === '/gallery' ? 'active' : ''}`}>
+                <li
+                  className={`m-2 top-content ${
+                    activeLink === '/galeri' ? 'active' : ''
+                  }`}
+                >
                   <Link
-                    className={`text-decoration-none p-2 ${activeLink === '/gallery' ? 'active-link' : ''}`}
-                    to="/gallery"
-                    onClick={() => handleLinkClick('/gallery')}
+                    className={`text-decoration-none p-2 ${
+                      activeLink === '/galeri' ? 'active-link' : ''
+                    }`}
+                    to="/galeri"
+                    onClick={() => handleLinkClick('/galeri')}
                   >
                     Galeri
                   </Link>

@@ -22,56 +22,56 @@ export default function CardGallery() {
         <div className="row">
           <div className="col-lg-4 mb-3">
             <a
-              href="assets/images/......."
+              href="assets/images/gallery-5.webp"
               data-lightbox="Gallery"
               data-title="Lomba dulu gass"
             >
-              <LazyLoadImage src="assets/images/......." alt="gambar galeri" className="img-fluid" />
+              <LazyLoadImage src="assets/images/gallery-5.webp" alt="gambar galeri" className="img-fluid" />
             </a>
           </div>
           <div className="col-lg-4 mb-3">
             <a
-              href="assets/images/......."
+              href="assets/images/gallery-5.webp"
               data-lightbox="Gallery"
               data-title="Lomba dulu gass"
             >
-              <LazyLoadImage src="assets/images/......." alt="gambar galeri" className="img-fluid" />
+              <LazyLoadImage src="assets/images/gallery-5.webp" alt="gambar galeri" className="img-fluid" />
             </a>
           </div>
           <div className="col-lg-4 mb-3">
             <a
-              href="assets/images/......."
+              href="assets/images/gallery-5.webp"
               data-lightbox="Gallery"
               data-title="Lomba dulu gass"
             >
-              <LazyLoadImage src="assets/images/......." alt="gambar galeri" className="img-fluid" />
+              <LazyLoadImage src="assets/images/gallery-5.webp" alt="gambar galeri" className="img-fluid" />
             </a>
           </div>
           <div className="col-lg-4 mb-3">
             <a
-              href="assets/images/......."
+              href="assets/images/gallery-5.webp"
               data-lightbox="Gallery"
               data-title="Lomba dulu gass"
             >
-              <LazyLoadImage src="assets/images/......." alt="gambar galeri" className="img-fluid" />
+              <LazyLoadImage src="assets/images/gallery-5.webp" alt="gambar galeri" className="img-fluid" />
             </a>
           </div>
           <div className="col-lg-4 mb-3">
             <a
-              href="assets/images/......."
+              href="assets/images/gallery-5.webp"
               data-lightbox="Gallery"
               data-title="Lomba dulu gass"
             >
-              <LazyLoadImage src="assets/images/......." alt="gambar galeri" className="img-fluid" />
+              <LazyLoadImage src="assets/images/gallery-5.webp" alt="gambar galeri" className="img-fluid" />
             </a>
           </div>
           <div className="col-lg-4 mb-3">
             <a
-              href="assets/images/......."
+              href="assets/images/gallery-5.webp"
               data-lightbox="Gallery"
               data-title="Lomba dulu gass"
             >
-              <LazyLoadImage src="assets/images/......." alt="gambar galeri" className="img-fluid" />
+              <LazyLoadImage src="assets/images/gallery-5.webp" alt="gambar galeri" className="img-fluid" />
             </a>
           </div>
         </div>

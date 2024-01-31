@@ -13,7 +13,7 @@ export default function NotFoundPage() {
         className="btn btn-dark mt-3 mb-3"
         onClick={() => navigate('/')}
       >
-        Kembali
+        Kembali ke beranda
       </button>
     </div>
   );

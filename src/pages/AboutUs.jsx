@@ -15,7 +15,7 @@ export default function AboutUs() {
           <div className="row mt-lg-5 mt-3">
             <div className="col-md-5">
               <LazyLoadImage
-                src="assets/images/....."
+                src="assets/images/room.webp"
                 alt="gambar tentang salon irfan"
                 className="img-fluid img-rounded"
               />
@@ -67,7 +67,7 @@ export default function AboutUs() {
             </div>
             <div className="col-md-5 mt-lg-0 mt-3">
               <LazyLoadImage
-                src="assets/images/......"
+                src="assets/images/img-fantasi.webp"
                 alt="gambar tentang salon irfan"
                 className="img-fluid img-rounded"
               />
@@ -83,7 +83,7 @@ export default function AboutUs() {
             <div className="col text-center">
               <div className="mb-4 ">
                 <LazyLoadImage
-                  src="/assets/images/owner.png"
+                  src="/assets/images/owner.webp"
                   className="img-fluid rounded-owner"
                   alt="gambar pemilik salon"
                 />
