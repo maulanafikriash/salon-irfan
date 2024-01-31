@@ -28,10 +28,10 @@ export default function Services() {
             </div>
             <div className="col-lg-3 col-md-6 bg-grid-clr">
               <h4 className="mt-md-0 my-2">Tradisional</h4>
-              <p className="">
+              <p>
                 Makeup tradisional merujuk pada teknik dan gaya riasan yang
                 mengakar pada budaya dan sejarah tertentu, seringkali
-                dipertahankan dan dilestarikan selama generasi.
+                dipertahankan dan dilestarikan pada setiap generasi.
               </p>
             </div>
             <div className="col-lg-3 col-md-6 pr-0 pl-md-3 pl-0 mt-lg-0 mt-4">
@@ -43,7 +43,7 @@ export default function Services() {
             </div>
             <div className="col-lg-3 col-md-6 bg-grid-clr mt-lg-0 mt-md-4">
               <h4 className="mt-md-0 my-2">Hari Kemerdekaan</h4>
-              <p className="">
+              <p>
                 Makeup untuk merayakan Hari Kemerdekaan sering kali mencerminkan
                 semangat patriotisme dan kebanggaan nasional.
               </p>
@@ -58,7 +58,7 @@ export default function Services() {
             </div>
             <div className="col-lg-3 col-md-6 bg-grid-clr mt-lg-5 mt-md-4">
               <h4 className="mt-md-0 my-2">Karakter Horor</h4>
-              <p className="">
+              <p>
                 Makeup karakter horor dirancang untuk menciptakan tampilan yang
                 menakutkan dan sering digunakan dalam film, teater, pesta
                 kostum, atau acara bertema horor.

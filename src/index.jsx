@@ -2,6 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'lightbox2/dist/js/lightbox-plus-jquery.js';
 import 'lightbox2/dist/css/lightbox.css';
 import 'aos/dist/aos.css';
