@@ -1,11 +1,12 @@
 /* eslint-disable import/extensions */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
-import './index.css';
-import App from './App';
+import 'lightbox2/dist/js/lightbox-plus-jquery.js';
+import 'lightbox2/dist/css/lightbox.css';
+import 'aos/dist/aos.css';
+import './style/style.scss';
+import App from './App.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
