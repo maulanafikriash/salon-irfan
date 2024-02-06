@@ -13,6 +13,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Salon Irfan, Merupakan website company yang berisi mengenai informasi apa saja yang berhubungan dengan Salon Irfan, seperti layanan apa saja yang tersedia, harga, tentang Salon Irfan, kontak, serta galeri hasil dari Salon Irfan itu sendiri.
 
 ## Tech Stack
- <a href="#"><img align="left" alt="ReactJS" title="ReactJS" width="32px" src="https://i.pinimg.com/564x/82/40/ac/8240ac872c818d2a39ef20d819fdbf0d.jpg" /></a>
- <iframe src="https://assets.pinterest.com/ext/embed.html?id=886294401649540949" height="336" width="236" frameborder="0" scrolling="no" ></iframe>
+<a href="#"><img align="left" alt="JavaScript" title="JavaScript" width="32px" src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" /></a>
+<a href="#"><img align="left" alt="ReactJS" title="ReactJS" width="32px" src="https://i.pinimg.com/564x/82/40/ac/8240ac872c818d2a39ef20d819fdbf0d.jpg" /></a>
 
