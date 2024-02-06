@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 
 function GoogleMapEmbed() {
@@ -12,7 +11,7 @@ function GoogleMapEmbed() {
         height="450"
         style={{ border: 0 }}
         src={mapSrc}
-        allowfullscreen
+        allowFullScreen
       />
     </div>
   );

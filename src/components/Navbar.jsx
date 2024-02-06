@@ -44,7 +44,7 @@ export default function Navbar() {
           </div>
           <div>
             <nav>
-              <label htmlFor="drop" className="toggle mt-lg-0 mt-1" onClick={handleToggleClick}>
+              <label className="toggle mt-lg-0 mt-1" onClick={handleToggleClick}>
                 {isToggleActive ? <FaTimes /> : <FaBars />}
               </label>
               <ul className={`menu ${isToggleActive ? 'show' : ''}`}>
