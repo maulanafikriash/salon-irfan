@@ -7,6 +7,7 @@ function GoogleMapEmbed() {
   return (
     <div className="mt-4 map-responsive">
       <iframe
+        title="lokasi salon irfan"
         width="600"
         height="450"
         style={{ border: 0 }}

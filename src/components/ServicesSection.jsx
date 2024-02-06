@@ -3,7 +3,7 @@
 import React, { useEffect } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import AOS from 'aos';
-import ButtonLink from './ButtonLink';
+import ButtonLinkPage from './ButtonLinkPage';
 
 export default function ServicesSection({ showButtonLink = true }) {
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function ServicesSection({ showButtonLink = true }) {
                 className="card-img-top img-fluid img-style"
               />
               <div className="card-body">
-                <h5 className="card-title">Makeup Tradisional</h5>
+                <h6 className="card-title">Makeup Tradisional</h6>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function ServicesSection({ showButtonLink = true }) {
                 className="card-img-top img-fluid img-style"
               />
               <div className="card-body">
-                <h5 className="card-title">Makeup Kemerdekaan</h5>
+                <h6 className="card-title">Makeup Kemerdekaan</h6>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function ServicesSection({ showButtonLink = true }) {
                 className="card-img-top img-fluid"
               />
               <div className="card-body">
-                <h5 className="card-title">Cat Rambut</h5>
+                <h6 className="card-title">Cat Rambut</h6>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function ServicesSection({ showButtonLink = true }) {
                 className="card-img-top img-fluid"
               />
               <div className="card-body">
-                <h5 className="card-title">Facial Biasa</h5>
+                <h6 className="card-title">Facial Biasa</h6>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function ServicesSection({ showButtonLink = true }) {
                 className="card-img-top img-fluid"
               />
               <div className="card-body">
-                <h5 className="card-title">Smoothing</h5>
+                <h6 className="card-title">Smoothing</h6>
               </div>
             </div>
           </div>
@@ -84,11 +84,11 @@ export default function ServicesSection({ showButtonLink = true }) {
                 className="card-img-top img-fluid"
               />
               <div className="card-body">
-                <h5 className="card-title">Potong Rambut</h5>
+                <h6 className="card-title">Potong Rambut</h6>
               </div>
             </div>
           </div>
-          {showButtonLink && <ButtonLink />}
+          {showButtonLink && <ButtonLinkPage />}
         </div>
       </div>
     </section>

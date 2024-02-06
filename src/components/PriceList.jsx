@@ -1,19 +1,40 @@
-import React, { useEffect } from 'react';
+/* eslint-disable react/button-has-type */
+/* eslint-disable react/no-array-index-key */
+import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 
 export default function PriceList() {
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init({ duration: 2000 });
   }, []);
+
+  const [hairTreatments] = useState([
+    { name: 'Gunting Rambut Anak', price: '10.000' },
+    { name: 'Gunting Rambut Dewasa', price: '15.000' },
+    { name: 'Gunting Rambut + Keramas + Blow', price: '35.000' },
+    { name: 'Keramas + Blow', price: '20.000' },
+    { name: 'Cat Rambut', price: '60.000' },
+    { name: 'Creambath', price: '45.000' },
+    { name: 'Rebonding/Smoothing', price: '250.000' },
+  ]);
+
+  const [otherTreatments] = useState([
+    { name: 'Totok Wajah', price: '35.000' },
+    { name: 'Lulur + Body Massage', price: '100.000' },
+    { name: 'Facial Galvanic', price: '150.000' },
+    { name: 'Makeup Anak', price: '70.000' },
+    { name: 'Makeup Dewasa', price: '150.000' },
+    { name: 'Makeup Karakter', price: '200.000' },
+    { name: 'Sewa Baju Adat Anak', price: '100.000' },
+  ]);
+
   return (
-    <section>
+    <section className="pricing">
       <div className="container p-3">
         <h3 className="text-center regular-font-table m-4" data-aos="fade-down">Daftar Harga</h3>
-
         <div className="table-responsive" data-aos="fade-up">
-          <table className="table mx-auto table-bordered">
+          <table className="table mx-auto table-bordered table-rounded">
             <thead>
-              {/* Hair Treatment */}
               <tr className="table-dark">
                 <td colSpan="2" className="text-center regular-font-table">
                   <strong>PERAWATAN RAMBUT</strong>
@@ -25,42 +46,19 @@ export default function PriceList() {
               </tr>
             </thead>
             <tbody>
-              <tr className="text-center regular-font-table-sub">
-                <td>Gunting Rambut Anak</td>
-                <td>15.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Gunting Rambut Dewasa</td>
-                <td>25.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Gunting Rambut + Keramas + Blow</td>
-                <td>35.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Keramas + Blow</td>
-                <td>20.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Cat Rambut</td>
-                <td>85.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Catok</td>
-                <td>40.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Curly</td>
-                <td>50.000</td>
-              </tr>
+              {hairTreatments.map((item, index) => (
+                <tr key={index} className="text-center regular-font-table-sub">
+                  <td>{item.name}</td>
+                  <td>{item.price}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
 
         <div className="mt-5 table-responsive" data-aos="fade-up">
-          <table className="table mx-auto table-bordered">
+          <table className="table mx-auto table-bordered table-rounded">
             <thead>
-              {/* Face and Body Treatment */}
               <tr className="table-dark">
                 <td colSpan="2" className="text-center regular-font-table">
                   <strong>LAINNYA</strong>
@@ -72,34 +70,12 @@ export default function PriceList() {
               </tr>
             </thead>
             <tbody>
-              <tr className="text-center regular-font-table-sub">
-                <td>Totok Wajah</td>
-                <td>35.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Lulur</td>
-                <td>80.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Facial Galvanic</td>
-                <td>150.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Makeup Anak</td>
-                <td>70.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Makeup Dewasa</td>
-                <td>150.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Makeup Karakter</td>
-                <td>200.000</td>
-              </tr>
-              <tr className="text-center regular-font-table-sub">
-                <td>Sewa Baju Adat Anak</td>
-                <td>100.000</td>
-              </tr>
+              {otherTreatments.map((item, index) => (
+                <tr key={index} className="text-center regular-font-table-sub">
+                  <td>{item.name}</td>
+                  <td>{item.price}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
