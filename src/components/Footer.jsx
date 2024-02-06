@@ -1,21 +1,24 @@
-/* eslint-disable max-len */
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 
 import React from 'react';
+import { GoMoveToTop } from 'react-icons/go';
+import { FaInstagram } from 'react-icons/fa6';
+import { FaFacebook, FaTiktok } from 'react-icons/fa';
 
 export default function Footer() {
   return (
     <footer className="text-light footer-container" id="footer">
-      <div className="layer py-5">
+      <div className="layer py-4">
         <div className="container p-5">
           <div className="row">
-            <div className="col-lg-4 footer-subb">
+            <div className="col-lg-4">
               <h2 className="top-content">Salon Irfan</h2>
               <p className="my-3">
                 kami menawarkan layanan kecantikan yang disesuaikan untuk setiap
-                pelanggan. Kami percaya bahwa kecantikan sejati berasal dari
-                perpaduan antara kepribadian, gaya, dan kesejahteraan.
+                pelanggan. Kami yakin bahwa keindahan yang sejati berasal dari
+                harmoni antara kepribadian, tampilan, dan kenyamanan
               </p>
               <p>
                 Sehingga
@@ -26,7 +29,7 @@ export default function Footer() {
             </div>
             <div className="col-lg-4 mt-lg-0 mt-4">
               <div>
-                <h3 className="mb-3 top-content">Salon Buka</h3>
+                <h3 className="mb-3 top-content">Jam Operasional</h3>
                 <hr className="bg-light" />
                 <ul className="list-unstyled">
                   <li>
@@ -45,7 +48,7 @@ export default function Footer() {
                 <div>
                   <p>
                     <a href="" className="text-light">
-                      salonirfan@gmail.com
+                      salonirfan37@gmail.com
                     </a>
                   </p>
                 </div>
@@ -65,30 +68,25 @@ export default function Footer() {
           <div className="text-center mt-4">
             <ul className="list-unstyled social-icons">
               <li>
-                <a href="#" className="text-light">
-                  <span className="fa fa-facebook-f" />
+                <a href="https://m.facebook.com/catrin.t.7/" className="text-light" target="_blank">
+                  <FaFacebook size={25} />
                 </a>
               </li>
               <li>
-                <a href="#" className="text-light">
-                  <span className="fa fa-twitter" />
+                <a href="https://www.tiktok.com/@catharina_salon.irfan" className="text-light" target="_blank">
+                  <FaTiktok size={25} />
                 </a>
               </li>
               <li>
-                <a href="#" className="text-light">
-                  <span className="fa fa-dribbble" />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-light">
-                  <span className="fa fa-vk" />
+                <a href="https://www.instagram.com/catharina_salon_irfan/" className="text-light" target="_blank">
+                  <FaInstagram size={25} />
                 </a>
               </li>
             </ul>
           </div>
           <div className="move-top text-right">
             <a href="#home" className="move-top">
-              <span className="fa fa-angle-up  mb-3" aria-hidden="true" />
+              <GoMoveToTop />
             </a>
           </div>
         </div>

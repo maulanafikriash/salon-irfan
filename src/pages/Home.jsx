@@ -43,21 +43,21 @@ export default function Home() {
         <div id="carouselExampleSlidesOnly" className="carousel-inner">
           <div className="carousel-item active ">
             <img
-              src="assets/images/baner1.png"
+              src="assets/images/baner1.webp"
               className="d-block w-100 change-style "
               alt="gambar salon"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="assets/images/baner2.png"
+              src="assets/images/baner2.webp"
               className="d-block w-100 change-style "
               alt="gambar salon"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="/assets/images/baner3.png"
+              src="/assets/images/baner3.webp"
               className="d-block w-100 change-style "
               alt="gambar salon"
             />
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
             <div className="col-md-6">
               <LazyLoadImage
-                src="assets/images/..........."
+                src="assets/images/logo-salon.webp"
                 className="img-fluid rounded-logo mx-auto"
                 alt="logo salon irfan"
               />

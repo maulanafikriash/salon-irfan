@@ -6,14 +6,14 @@ export default function NotFoundPage() {
 
   return (
     <div className="container text-center mt-5 mb-4">
-      <img src="assets/images/notfound.webp" alt="notfound" className="img-fluid image-not-found" />
+      <img src="assets/images/notFound.webp" alt="tampilan error" className="img-fluid image-not-found" />
       <p className="mt-4">Maaf, halaman tujuan Anda tidak ditemukan</p>
       <button
         type="button"
         className="btn btn-dark mt-3 mb-3"
         onClick={() => navigate('/')}
       >
-        Kembali
+        Kembali ke beranda
       </button>
     </div>
   );
