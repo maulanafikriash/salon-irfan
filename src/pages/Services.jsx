@@ -1,84 +1,61 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable no-undef */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { FaRegFrown } from 'react-icons/fa';
 import StickyWhatsAppIcon from '../components/StickyWhatsAppIcon';
-import ServicesSection from '../components/ServicesSection';
+import ContentUp from '../components/ContentUp';
+import { servicesData } from '../data/servicesData';
+import SearchServices from '../components/SearchServices';
 
 export default function Services() {
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredServices = servicesData.filter((service) =>
+    service.title.toLowerCase().includes(searchQuery.toLowerCase()));
+
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+
   return (
     <div>
-      <ServicesSection showButtonLink={false} />
-      <section className="py-4" id="service-page">
+      <ContentUp />
+      <section className="py-4 content" id="service-page">
         <div className="container py-md-4 p-4" data-aos="fade-up">
-          <h3 className="heading text-center mb-3 mb-sm-5" data-aos="fade-down">
-            Riasan Kami
-          </h3>
-          <div className="row">
-            <div className="col-lg-3 col-md-6 pr-0 pl-md-3 pl-0">
-              <LazyLoadImage
-                src="assets/images/img-service-4.webp"
-                className="img-fluid img-rounded"
-                alt="gambar layanan"
-              />
-            </div>
-            <div className="col-lg-3 col-md-6 bg-grid-clr">
-              <h4 className="mt-md-0 my-2">Tradisional</h4>
-              <p>
-                Makeup tradisional merujuk pada teknik dan gaya riasan yang
-                mengakar pada budaya dan sejarah tertentu, seringkali
-                dipertahankan dan dilestarikan pada setiap generasi.
-              </p>
-            </div>
-            <div className="col-lg-3 col-md-6 pr-0 pl-md-3 pl-0 mt-lg-0 mt-4">
-              <LazyLoadImage
-                src="assets/images/img-service-2.webp"
-                className="img-fluid img-rounded"
-                alt="gambar layanan"
-              />
-            </div>
-            <div className="col-lg-3 col-md-6 bg-grid-clr mt-lg-0 mt-md-4">
-              <h4 className="mt-md-0 my-2">Hari Kemerdekaan</h4>
-              <p>
-                Makeup untuk merayakan Hari Kemerdekaan sering kali mencerminkan
-                semangat patriotisme dan kebanggaan nasional.
-              </p>
-            </div>
+          <h3 className="heading text-center mb-3 mb-sm-5" data-aos="fade-down">Layanan</h3>
 
-            <div className="col-lg-3 col-md-6 pr-0 pl-md-3 pl-0 mt-lg-5 mt-4">
-              <LazyLoadImage
-                src="assets/images/img-service-1.webp"
-                className="img-fluid img-rounded"
-                alt="gambar layanan"
-              />
-            </div>
-            <div className="col-lg-3 col-md-6 bg-grid-clr mt-lg-5 mt-md-4">
-              <h4 className="mt-md-0 my-2">Karakter Horor</h4>
-              <p>
-                Makeup karakter horor dirancang untuk menciptakan tampilan yang
-                menakutkan dan sering digunakan dalam film, teater, pesta
-                kostum, atau acara bertema horor.
-              </p>
-            </div>
-            <div className="col-lg-3 col-md-6 pr-0 pl-md-3 pl-0 mt-lg-5 mt-4">
-              <LazyLoadImage
-                src="assets/images/img-service-3.webp"
-                className="img-fluid img-rounded"
-                alt="gambar layanan"
-              />
-            </div>
-            <div className="col-lg-3 col-md-6 bg-grid-clr mt-lg-5 mt-md-4">
-              <h4 className="mt-md-0 my-2">Karakter Fantasi</h4>
-              <p>
-                Makeup karakter fantasi merupakan seni yang menggabungkan
-                kreativitas, keterampilan, dan imajinasi untuk menciptakan
-                penampilan yang luar biasa dan menakjubkan.
-              </p>
-            </div>
+          <SearchServices searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+
+          <div className="row">
+            {filteredServices.length > 0 ? (
+              filteredServices.map((service) => (
+                <div key={service.id} className="col-md-4 mb-4">
+                  <div className="card h-100 img-rounded">
+                    <LazyLoadImage src={service.image} className="card-img-top rounded-top" alt="gambar layanan" />
+                    <div className="card-body">
+                      <h5>{service.title}</h5>
+                      <p>{service.description}</p>
+                    </div>
+                  </div>
+                </div>
+              ))
+            ) : (
+              <div className="col-12 text-center mt-5">
+                <div className="mb-3">
+                  <FaRegFrown size={50} />
+                </div>
+                <p>
+                  Tidak ada hasil untuk "
+                  {searchQuery}
+                  ". Silakan coba kata kunci lain.
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </section>

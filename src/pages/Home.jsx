@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Link } from 'react-router-dom';
 import StickyWhatsAppIcon from '../components/StickyWhatsAppIcon';
 import ServicesSection from '../components/ServicesSection';
 import PriceList from '../components/PriceList';
 import GoogleMapEmbed from '../components/GMaps';
+import ContentUp from '../components/ContentUp';
 
 export default function Home() {
   useEffect(() => {
@@ -12,9 +13,10 @@ export default function Home() {
   }, []);
   return (
     <div>
+      <ContentUp />
       <section
         id="carouselExampleIndicators"
-        className="carousel carousel-dark slide"
+        className="carousel carousel-light slide content"
         data-bs-ride="carousel"
         data-bs-interval="2000"
       >
@@ -89,19 +91,18 @@ export default function Home() {
               <div className="regular-content">
                 <h1>Salon Irfan</h1>
                 <h2>Salon Khusus Wanita</h2>
-                <p>&ldquo;Raih Tampilan Terbaikmu bersama Salon Irfan&ldquo;</p>
+                <p className="tag-line">
+                  &ldquo;Raih Tampilan Terbaikmu bersama Salon Irfan&ldquo;
+                </p>
                 <p>
-                  kami menawarkan layanan kecantikan yang disesuaikan untuk
-                  setiap pelanggan. Kami yakin bahwa keindahan yang sejati
-                  berasal dari harmoni antara kepribadian, tampilan, dan
-                  kenyamanan sehingga setiap layanan kami dirancang untuk tidak
-                  hanya memperbarui penampilan Anda, tapi juga untuk
-                  meningkatkan kepercayaan diri dan kenyamanan Anda.
+                  Dapatkan pengalaman kecantikan terbaik di Salon Irfan! Nikmati
+                  layanan profesional dari tim ahli kami, suasana yang nyaman,
+                  dan tampilan terkini sesuai tren...
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
-              <LazyLoadImage
+            <div className="col-md-6 mt-3">
+              <img
                 src="assets/images/logo-salon.webp"
                 className="img-fluid rounded-logo mx-auto"
                 alt="logo salon irfan"
@@ -115,12 +116,17 @@ export default function Home() {
       <section className="bg-light py-4">
         <div className="container py-md-4" data-aos="fade-up">
           <div className="text-center">
-            <h6 className="display-6">
+            <h5 className="display-6">
               Hubungi kami untuk melakukan pemesanan
-            </h6>
+            </h5>
             <p className="lead">Kami akan segera merespon Anda</p>
+            <div className="mt-3 mb-4">
+              <Link to="/pemesanan" className="btn btn-dark">
+                <span>Klik Disini</span>
+              </Link>
+            </div>
             <hr />
-            <h4 className="">Lokasi Kami</h4>
+            <h4>Lokasi Kami</h4>
             <GoogleMapEmbed />
           </div>
         </div>

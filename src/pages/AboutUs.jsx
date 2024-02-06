@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import StickyWhatsAppIcon from '../components/StickyWhatsAppIcon';
+import ContentUp from '../components/ContentUp';
 
 export default function AboutUs() {
   useEffect(() => {
@@ -11,7 +12,8 @@ export default function AboutUs() {
   }, []);
   return (
     <div>
-      <section className="py-4" id="exp">
+      <ContentUp />
+      <section className="py-4 content">
         <div className="container py-md-4 p-4">
           <h3 className="heading text-center mb-3 mb-sm-5 regular-content-sub" data-aos="fade-down">
             Sekilas Tentang Kami
