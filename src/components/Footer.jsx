@@ -21,10 +21,9 @@ export default function Footer() {
                 harmoni antara kepribadian, tampilan, dan kenyamanan
               </p>
               <p>
-                Sehingga
-                setiap layanan kami dirancang untuk tidak hanya memperbarui
-                penampilan Anda, tapi juga untuk meningkatkan kepercayaan diri
-                dan kenyamanan Anda.
+                Sehingga setiap layanan kami dirancang untuk tidak hanya
+                memperbarui penampilan Anda, tapi juga untuk meningkatkan
+                kepercayaan diri dan kenyamanan Anda.
               </p>
             </div>
             <div className="col-lg-4 mt-lg-0 mt-4">
@@ -47,7 +46,13 @@ export default function Footer() {
                 <hr className="bg-light" />
                 <div>
                   <p>
-                    <a href="" className="text-light">
+                    <a
+                      href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                      className="text-light"
+                      aria-label="Email"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       salonirfan37@gmail.com
                     </a>
                   </p>
@@ -68,24 +73,46 @@ export default function Footer() {
           <div className="text-center mt-4">
             <ul className="list-unstyled social-icons">
               <li>
-                <a href="https://m.facebook.com/catrin.t.7/" className="text-light" target="_blank">
+                <a
+                  href="https://m.facebook.com/catrin.t.7/"
+                  className="text-light"
+                  aria-label="Sosial Media Facebook"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaFacebook size={25} />
                 </a>
               </li>
               <li>
-                <a href="https://www.tiktok.com/@catharina_salon.irfan" className="text-light" target="_blank">
+                <a
+                  href="https://www.tiktok.com/@catharina_salon.irfan"
+                  className="text-light"
+                  aria-label="Sosial Media TikTok"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaTiktok size={25} />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/catharina_salon_irfan/" className="text-light" target="_blank">
+                <a
+                  href="https://www.instagram.com/catharina_salon_irfan/"
+                  className="text-light"
+                  aria-label="Sosial Media Instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaInstagram size={25} />
                 </a>
               </li>
             </ul>
           </div>
           <div className="move-top text-right">
-            <a href="#home" className="move-top">
+            <a
+              href="#content-up"
+              className="move-top"
+              aria-label="link top content"
+            >
               <GoMoveToTop />
             </a>
           </div>
