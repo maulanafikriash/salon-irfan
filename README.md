@@ -15,4 +15,6 @@ Salon Irfan, Merupakan website company yang berisi mengenai informasi apa saja y
 ## Tech Stack
 <a href="#"><img align="left" alt="JavaScript" title="JavaScript" width="32px" src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" /></a>
 <a href="#"><img align="left" alt="ReactJS" title="ReactJS" width="32px" src="https://i.pinimg.com/564x/82/40/ac/8240ac872c818d2a39ef20d819fdbf0d.jpg" /></a>
+<a href="#"><img align="left" alt="NodeJS" title="NodeJS" width="32px" src="![image](https://github.com/maulanafikriash/salon-irfan/assets/92583243/aaa717db-16a3-4608-b183-bdb384ef8595)
+" /></a>
 
