@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Lomba PIKMI 2024
+## Software Development Competition
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## List Anggota
+- Irfan Satria Pratama - Project Manager & UI/UX Design
+- Aziza Rahma - UI/UX Design
+- Maulana Fikri Ash-Shidiq - Web Developer
 
-In the project directory, you can run:
+## Deskripsi
+Salon Irfan, Merupakan website company yang berisi mengenai informasi apa saja yang berhubungan dengan Salon Irfan, seperti layanan apa saja yang tersedia, harga, tentang Salon Irfan, kontak, serta galeri hasil dari Salon Irfan itu sendiri.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tech Stack
+<a href="#"><img align="left" alt="JavaScript" title="JavaScript" width="32px" src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" /></a>
+<a href="#"><img align="left" alt="ReactJS" title="ReactJS" width="32px" src="https://i.pinimg.com/564x/82/40/ac/8240ac872c818d2a39ef20d819fdbf0d.jpg" /></a>
+<a href="#"><img align="left" alt="CSS3" title="CSS3" width="32px" src="https://i.pinimg.com/564x/c5/f2/65/c5f26598d07ffab009009cc134a6a795.jpg" /></a>
+<a href="#"><img align="left" alt="NodeJS" title="NodeJS" width="32px" src="https://i.pinimg.com/564x/08/86/77/0886779176db12da5565ca4b9541e2b8.jpg" /></a>
+<a href="#"><img align="left" alt="HTML5" title="HTML5" width="32px" src="https://i.pinimg.com/564x/fb/1e/7f/fb1e7f9db2540c3194a9179094a925e2.jpg" /></a>
+<a href="#"><img align="left" alt="SASS" title="SASS" width="32px" src="https://i.pinimg.com/564x/08/4f/0c/084f0cf8b8a5fdff8203d6264b1dd700.jpg" /></a>
+<a href="#"><img align="left" alt="Bootstrap" title="Bootstrap" width="32px" src="https://i.pinimg.com/564x/be/d3/0d/bed30ddfa5d434e827c775ac9a3b0d38.jpg" /></a>
