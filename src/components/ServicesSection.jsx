@@ -7,7 +7,7 @@ import ButtonLinkPage from './ButtonLinkPage';
 
 export default function ServicesSection({ showButtonLink = true }) {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000 });
   }, []);
   return (
     <section className="bg-light" id="services">

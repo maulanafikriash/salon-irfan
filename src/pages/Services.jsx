@@ -19,7 +19,7 @@ export default function Services() {
     service.title.toLowerCase().includes(searchQuery.toLowerCase()));
 
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
