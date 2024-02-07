@@ -12,11 +12,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Deskripsi
 Salon Irfan, Merupakan website company yang berisi mengenai informasi apa saja yang berhubungan dengan Salon Irfan, seperti layanan apa saja yang tersedia, harga, tentang Salon Irfan, kontak, serta galeri hasil dari Salon Irfan itu sendiri.
 
-## Tech Stack
-<a href="#"><img align="left" alt="JavaScript" title="JavaScript" width="32px" src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" /></a>
-<a href="#"><img align="left" alt="ReactJS" title="ReactJS" width="32px" src="https://i.pinimg.com/564x/82/40/ac/8240ac872c818d2a39ef20d819fdbf0d.jpg" /></a>
-<a href="#"><img align="left" alt="CSS3" title="CSS3" width="32px" src="https://i.pinimg.com/564x/c5/f2/65/c5f26598d07ffab009009cc134a6a795.jpg" /></a>
-<a href="#"><img align="left" alt="NodeJS" title="NodeJS" width="32px" src="https://i.pinimg.com/564x/08/86/77/0886779176db12da5565ca4b9541e2b8.jpg" /></a>
-<a href="#"><img align="left" alt="HTML5" title="HTML5" width="32px" src="https://i.pinimg.com/564x/fb/1e/7f/fb1e7f9db2540c3194a9179094a925e2.jpg" /></a>
-<a href="#"><img align="left" alt="SASS" title="SASS" width="32px" src="https://i.pinimg.com/564x/08/4f/0c/084f0cf8b8a5fdff8203d6264b1dd700.jpg" /></a>
-<a href="#"><img align="left" alt="Bootstrap" title="Bootstrap" width="32px" src="https://i.pinimg.com/564x/be/d3/0d/bed30ddfa5d434e827c775ac9a3b0d38.jpg" /></a>
+### Tech Stack
+<a href="#"><img align="left" alt="HTML5" title="HTML5" width="32px" src="https://png2.cleanpng.com/sh/d1785cf3b9df361bd4194144bccb0414/L0KzQYm3VMI2N6t2iZH0aYP2gLBuTgdmal5pfehubHBzfbb1lL1pfJ5xReRuc4DyfsTwlvUuf5ZnRdZuc3nqfn7zjBdwNZtmRdp9bXywRbLsUMRiQWY3TtUAOUKxR4WCU8A3PmM2TaQ9NkS7RYqAUcU5QF91htk=/kisspng-web-development-html-responsive-web-design-logo-ja-html-5ae04a9526c592.7493066215246485971588.png" /></a>
+<a href="#"><img align="left" alt="CSS3" title="CSS3" width="35px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/512px-CSS3_logo.svg.png?20210705212817" /></a>
+<a href="#"><img align="left" alt="JavaScript" title="JavaScript" width="33px" padding-top="10px" src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" /></a>
+<br><br><br>
+<a href="#"><img align="left" alt="ReactJS" title="ReactJS" width="38px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" /></a>
+<a href="#"><img align="left" alt="Bootstrap" title="Bootstrap" width="39px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" /></a>
+<a href="#"><img align="left" alt="SASS" title="SASS" width="39px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/512px-Sass_Logo_Color.svg.png" /></a>
+<a href="#"><img align="left" alt="NodeJS" title="NodeJS" width="58px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png" /></a>
+
