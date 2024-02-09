@@ -85,7 +85,7 @@ export default function Home() {
         </button>
       </section>
       <section className="py-4 text-left">
-        <div className="container p-4">
+        <div className="container p-3">
           <div className="row">
             <div className="col-md-6 d-flex align-items-center justify-content-left">
               <div className="regular-content">
