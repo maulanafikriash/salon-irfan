@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="text-light footer-container" id="footer">
       <div className="layer py-4">
-        <div className="container p-5">
+        <div className="container p-4">
           <div className="row">
             <div className="col-lg-4">
               <h2 className="top-content">Salon Irfan</h2>

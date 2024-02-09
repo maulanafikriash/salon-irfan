@@ -26,7 +26,7 @@ export default function Services() {
     <div>
       <ContentUp />
       <section className="py-4 content" id="service-page">
-        <div className="container py-md-4 p-4" data-aos="fade-up">
+        <div className="container py-md-4 p-3" data-aos="fade-up">
           <h3 className="heading text-center mb-3 mb-sm-5" data-aos="fade-down">Layanan</h3>
 
           <SearchServices searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
